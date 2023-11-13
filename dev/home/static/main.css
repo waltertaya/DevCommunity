@@ -29,6 +29,9 @@ img:hover {
     font-size: 17px;
     padding: 6px;
 }
+#btn3 {
+    background-color: white;
+}
 .btn1 {
     border-color: blue;
     color: blue;
