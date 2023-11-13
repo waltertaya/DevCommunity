@@ -4,26 +4,55 @@
     padding: 0;
     scroll-behavior: smooth;
   }
+body {
+    background-color: #f2eeee;
+}
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    background-color: #f2eeee;
+    background-color: white;
     height: 60px;
 }
 header img {
     width: 50px;
     height: 40px;
 }
+.dev:hover {
+    cursor: pointer;
+}
+img:hover {
+    cursor: pointer;
+}
+#search {
+    font-size: 17px;
+    padding: 6px;
+}
 .btn1 {
     border-color: blue;
     color: blue;
-    width: 100px;
+    width: 130px;
     border-radius: 8px;
+    background-color: white;
+}
+.btn1:hover {
+    background-color: blue;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
 }
 .btn2 {
     border: none;
+    background-color: white;
+    width: 70px;
+    border-radius: 8px;
+}
+.btn2:hover {
+    background-color: rgba(0, 26, 255,0.1);
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
 }
 .button {
     display: flex;
@@ -39,4 +68,15 @@ header img {
 label {
     display: flex;
     gap: 0;
+}
+label button {
+    border-left: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+label input {
+    border-right: none;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 500px;
 }
