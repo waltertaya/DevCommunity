@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f2eeee;
+    height: 60px;
+}
+header img {
+    width: 50px;
+    height: 40px;
+}
+.btn1 {
+    border-color: blue;
+    color: blue;
+    width: 100px;
+    border-radius: 8px;
+}
+.btn2 {
+    border: none;
+}
+.button {
+    display: flex;
+    gap: 1.5rem;
+    height: 40px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+label {
+    display: flex;
+    gap: 0;
+}
