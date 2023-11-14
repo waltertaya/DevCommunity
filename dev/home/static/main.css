@@ -87,6 +87,8 @@ label input {
     width: 400px;
 }
 main {
+    margin-left: 14%;
+    max-width: 72%;
     width: 100%;
     display: flex;
 }
@@ -101,4 +103,11 @@ main {
 #hashtags {
     max-width: 20%;
     width: 100%;
+}
+.community {
+    margin: 10px;
+    padding: 20px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
 }
