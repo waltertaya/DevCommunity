@@ -27,14 +27,27 @@
                 <div class="community">
                     <h2>DEV Community is a community of 1,188,188 amazing developers</h2>
                     <p>We're a place where coders share, stay up-to-date and grow their careers.</p>
-                    <button class="btn2">Log in</button>
-                <button class="btn1">Create account</button>
+                    <button class="btn4">Create account</button>
+                    <button class="btn5">Log in</button>
                 </div>
             </div>
             <div id="contents">
+                <header class="content-header">
+                    <button>Relevant</button>
+                    <button>Latest</button>
+                    <button>Top</button>
+                </header>
                 {% block content %}{% endblock %}
             </div>
-            <div id="hashtags"></div>
+            <div id="hashtags">
+                <div class="hash">
+                    <h2><a href="#">#discuss</a></h2>
+                    <hr>
+                    <p><a href="#">Javascript Proxy Magic: How I built a 2kB state manager with zero dependencies (and how it got me two different job offers)</a></p>
+                    <p><a href="#">comments</a></p>
+                    <hr>
+                </div>
+            </div>
         </main>
         <script src="{% static 'index.js' %}"></script>
     </body>

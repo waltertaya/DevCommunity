@@ -93,7 +93,7 @@ main {
     display: flex;
 }
 #apps {
-    max-width: 20%;
+    max-width: 22.5%;
     width: 100%;
 }
 #contents {
@@ -101,13 +101,83 @@ main {
     width: 100%;
 }
 #hashtags {
-    max-width: 20%;
+    max-width: 22.5%;
     width: 100%;
 }
 .community {
     margin: 10px;
     padding: 20px;
-    height: 300px;
+    height: 400px;
     border-radius: 8px;
     background-color: white;
+}
+.community p {
+    padding-top: 1rem;
+}
+.community button {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.btn4 {
+    border-color: blue;
+    color: blue;
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+}
+.btn4:hover {
+    background-color: blue;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn5 {
+    border: none;
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+}
+.btn5:hover {
+    background-color: rgba(0, 26, 255,0.1);
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.content-header {
+    display: inline;
+    background-color: #f2eeee;
+    margin-left: 9px;
+}
+.content-header button {
+    margin-top: 13px;
+    height: 40px;
+    border: none;
+    width: 80px;
+    border-radius: 8px;
+}
+.content-header button:hover {
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+#hashtags {
+    margin-top: 14px;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+}
+.hash a {
+    text-decoration: none;
+    color: black;
+}
+.hash a:hover {
+    color: blue;
+}
+.hash p,h2 {
+    padding: 14px;
 }
