@@ -6,7 +6,7 @@
             <div class="posts-body">
                 <div class="artices-data">
                     <a class="mr-2" href="#">{{ post.author }}</a>
-                    <small class="text-muted">{{ post.date_posted }}</small>
+                    <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
                 </div>
             <h2><a class="articles-title" href="#">{{ post.title }}</a></h2>
             <p class="articles-content">{{ post.content }}</p>

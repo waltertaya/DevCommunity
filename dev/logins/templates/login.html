@@ -1,0 +1,27 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+    <div class="register-section">
+        <form method="POST">
+            {% {% csrf_token %} %}
+            <fieldset>
+                <img class="dev" src="{% static 'logo-dev-rounded.svg' %}" alt="dev logo" />
+                <h2>Join the DEV Community</h2>
+                <p>DEV Community is a community of 1,191,093 amazing developers</p>
+                <button><img alt="apple" src="" >Sign up with Apple</button>
+                <button><img alt="apple" src="" >Sign up with Forem</button>
+                <button><img alt="apple" src="" >Sign up with GitHub</button>
+                <button><img alt="apple" src="" >Sign up with Twitter</button>
+                <hr><p>OR</p><hr>
+            </fieldset>
+            <fieldset>
+                <label for="email">Email<input type="email" class="email"></label>
+                <label for="password">password<input type="password" class="password"></label>
+                <label for="checkbox"><input type="checkbox" class="check"></label>
+                <span><a href="">Forgot password</a></span>
+                <button>Log in</button>
+                <small>By signing in, you are agreeing to our <a href="">privacy policy, terms of use and code of conduct.</a></small>
+            </fieldset>
+        </form>
+    </div>
+{% endblock %}

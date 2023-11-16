@@ -97,11 +97,11 @@ main {
     width: 100%;
 }
 #contents {
-    max-width: 55%;
+    max-width: 48%;
     width: 100%;
 }
 #hashtags {
-    max-width: 22.5%;
+    max-width: 29.5%;
     width: 100%;
 }
 .community {
@@ -183,7 +183,7 @@ main {
 }
 .posts-section {
     margin-left: 1.5rem;
-    width: 500px;
+    width: 530px;
     background: #ffffff;
     padding: 10px 20px;
     border: 1px solid #dddddd;
