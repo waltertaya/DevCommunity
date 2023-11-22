@@ -1,17 +1,17 @@
-{% extends 'base.html'%}
+{% extends 'login/account.html'%}
 {% load static %}
 {% block content %}
     <div class="register-section">
         <form method="POST">
-            {% {% csrf_token %} %}
+            {% csrf_token %}
             <fieldset>
                 <img class="dev" src="{% static 'logo-dev-rounded.svg' %}" alt="dev logo" />
                 <h2>Join the DEV Community</h2>
                 <p>DEV Community is a community of 1,191,093 amazing developers</p>
-                <button><img alt="apple" src="" >Sign up with Apple</button>
-                <button><img alt="apple" src="" >Sign up with Forem</button>
-                <button><img alt="apple" src="" >Sign up with GitHub</button>
-                <button><img alt="apple" src="" >Sign up with Twitter</button>
+                <button><img alt="apple" src="" >Sign in with Apple</button>
+                <button><img alt="apple" src="" >Sign in with Forem</button>
+                <button><img alt="apple" src="" >Sign in with GitHub</button>
+                <button><img alt="apple" src="" >Sign in with Twitter</button>
                 <hr><p>OR</p><hr>
             </fieldset>
             <fieldset>

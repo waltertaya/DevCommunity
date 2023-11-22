@@ -1,9 +1,9 @@
-{% extends 'base.html'%}
+{% extends 'login/account.html'%}
 {% load static %}
 {% block content %}
     <div class="register-section">
         <form method="POST">
-            {% {% csrf_token %} %}
+            {% csrf_token %}
             <fieldset>
                 <img class="dev" src="{% static 'logo-dev-rounded.svg' %}" alt="dev logo" />
                 <h2>Join the DEV Community</h2>

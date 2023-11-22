@@ -65,6 +65,9 @@ img:hover {
     gap: 1.5rem;
     height: 40px;
 }
+a {
+    height: 40px;
+}
 .logo {
     display: flex;
     justify-content: center;
