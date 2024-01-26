@@ -1,0 +1,47 @@
+#apps {
+    max-width: 22.5%;
+    width: 100%;
+}
+.community {
+    margin: 10px;
+    padding: 20px;
+    height: 400px;
+    border-radius: 8px;
+    background-color: white;
+}
+.community p {
+    padding-top: 1rem;
+}
+.community button {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.btn4 {
+    border-color: blue;
+    color: blue;
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+}
+.btn4:hover {
+    background-color: blue;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn5 {
+    border: none;
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+}
+.btn5:hover {
+    background-color: rgba(0, 26, 255,0.1);
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
